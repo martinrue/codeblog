@@ -1,7 +1,9 @@
 # code blog
 A quick and easy way to host your own code blog.
 
-![](https://github.com/martinrue/codeblog/raw/master/public/img/screenshot.png)
+<p align="center">
+  <img src="https://github.com/martinrue/codeblog/raw/master/public/img/screenshot.png" />
+</p>
 
 ## How
 Simply create `your-blog-post.md` files in the `/posts` directory and you're done. GitHub flavoured markdown is supported and code blocks are automatically highlighted.
