@@ -44,8 +44,25 @@ module.exports = {
 ### Supported Styles
 You can set the `style` config to any of the following values: `arta` `ascetic` `brown_paper` `dark` `default` `far` `github` `googlecode` `idea` `ir_black` `magula` `monokai` `pojoaque` `rainbow` `school_book` `solarized_dark` `solarized_light` `sunburst` `tomorrow-night-blue` `tomorrow-night-bright` `tomorrow-night-eighties` `tomorrow-night` `tomorrow` `vs` `xcode` `zenburn`.
 
-## Running
-...
+## Running Locally
+Simply clone the repo, install dependencies and run `node codeblog.js`:
 
-### Deploying
-...
+```
+git clone git@github.com:martinrue/codeblog.git
+cd codeblog
+npm install
+node codeblog.js
+```
+
+Now hit `http://localhost:9111` and you should be running your own code blog.
+
+## Deployment
+If you want a more permanent home, deploying to [heroku](https://www.heroku.com) is super easy. Make sure you have an account and you have installed the [heroku toolbelt](https://toolbelt.heroku.com), then:
+
+```
+git clone git@github.com:martinrue/codeblog.git
+cd codeblog
+heroku create
+git push heroku master
+heroku open
+```
