@@ -6,8 +6,30 @@ A quick and easy way to host your own code blog.
 ## How
 Simply create `your-blog-post.md` files in the `/posts` directory and you're done. GitHub flavoured markdown is supported and code blocks are automatically highlighted.
 
+### Meta
+The first three lines of any post should look like the following:
+
+```
+title: Blog Post Title
+date: Jan 1 2013
+---
+```
+
+The markdown body of the post should follow the `---` line.
+
+## Code Highlighting
+To highlight a block of code, surround the code with three backticks and a language specifier:
+
+<pre>
+```javascript
+console.log('Hello World');
+```
+</pre>
+
+To force the code block to have no highlighting, use the language specifier `no-highlight`.
+
 ## Config
-Before deploying your own copy, please change the options in the [config.js](https://github.com/martinrue/codeblog/blob/master/config.js):
+Before deploying your own copy, please change the options in the [config.js](https://github.com/martinrue/codeblog/blob/master/config.js) file:
 
 ```javascript
 module.exports = {
@@ -18,18 +40,7 @@ module.exports = {
 ```
 
 ### Supported Styles
-You can set the `style` config to any of the following values: `arta.css`, `ascetic.css`, `brown_paper.css`, `dark.css`, `default.css`, `far.css`, `github.css`, `googlecode.css`, `idea.css`, `ir_black.css`, `magula.css`, `monokai.css`, `pojoaque.css`, `rainbow.css`, `school_book.css`, `solarized_dark.css`, `solarized_light.css`, `sunburst.css`, `tomorrow-night-blue.css`, `tomorrow-night-bright.css`, `tomorrow-night-eighties.css`, `tomorrow-night.css`, `tomorrow.css`, `vs.css`, `xcode.css`, `zenburn.css`.
-
-## Syntax Highlighting
-To highlight a block of code, surround the code with three backticks and a language specifier:
-
-```
-```javascript
-console.log('Hello World');
-```
-```
-
-If you want to force the code block to have no highlighting, use the language specifier `no-highlight`.
+You can set the `style` config to any of the following values: `arta` `ascetic` `brown_paper` `dark` `default` `far` `github` `googlecode` `idea` `ir_black` `magula` `monokai` `pojoaque` `rainbow` `school_book` `solarized_dark` `solarized_light` `sunburst` `tomorrow-night-blue` `tomorrow-night-bright` `tomorrow-night-eighties` `tomorrow-night` `tomorrow` `vs` `xcode` `zenburn`.
 
 ## Running
 ...
