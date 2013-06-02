@@ -2,7 +2,7 @@ var crypto = require('crypto');
 
 module.exports = {
   email: 'hello@martinrue.com',
-  title: 'Blog Title Here',
+  title: 'Martin on Code',
   style: 'monokai'
 };
 
