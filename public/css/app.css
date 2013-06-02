@@ -48,7 +48,7 @@ h2 {
 }
 
 h3 {
-  font: 200 18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 200 20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #bbb;
 }
 
@@ -63,7 +63,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #00BFFF;
+  color: #00bfff;
 }
 
 p {
@@ -71,7 +71,7 @@ p {
 }
 
 p a {
-  color: #00BFFF;
+  color: #00bfff;
 }
 
 .post h1, .post h2, .post h3, .post h4, .post h5 {
@@ -95,6 +95,7 @@ pre {
   background: none;
   border: 0;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 pre code {
@@ -116,5 +117,12 @@ pre code {
   background: #f0f0f0;
   border-radius: 4px;
   padding: 3px 8px;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+p code {
+  font-weight: 200;
+  font-size: 18px;
+  color: #555;
   text-shadow: 1px 1px 1px #fff;
 }
