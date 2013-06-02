@@ -1,0 +1,31 @@
+{
+  "name": "codeblog",
+  "version": "0.0.1",
+  "description": "A quick and easy way to host your own simple code blog",
+  "main": "codeblog.js",
+  "homepage": "https://github.com/martinrue/codeblog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinrue/codeblog.git"
+  },
+  "keywords": [
+    "code",
+    "blog"
+  ],
+  "author": "Martin Rue",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.2.5",
+    "mustachex": "0.0.2",
+    "glob": "~3.2.1",
+    "underscore": "~1.4.4",
+    "marked": "~0.2.9",
+    "moment": "~2.0.0"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+  }
+}
