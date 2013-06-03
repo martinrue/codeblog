@@ -2,7 +2,9 @@
 A quick and easy way to host your own code blog.
 
 <p align="center">
-  <img src="https://github.com/martinrue/codeblog/raw/master/public/img/screenshot.png" />
+  <a href="http://code.martinrue.com">
+    <img src="https://github.com/martinrue/codeblog/raw/master/public/img/screenshot.png" />
+  </a>
 </p>
 
 ## How
