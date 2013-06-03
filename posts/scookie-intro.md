@@ -2,7 +2,7 @@ title: scookie – user login via cookies
 date: June 3 2013 22:40
 ---
 
-User sessions are pretty common in most web apps. Normally, a session is created on the server for the logged-in user and a session ID is passed back to the client so that it can continue to idenity its own session on subsequent requests.
+User sessions are pretty common in most web apps. Normally, a session is created on the server for the logged-in user and a session ID is passed back to the client so that it can continue to identify its own session on subsequent requests.
 
 But then you have a centralised session which starts to get complex when you think about multiple web servers. It can be much simpler by just giving a cookie to the client. Then we have no lingering state on the server and the client tells you what you need to know on each request. 
 
