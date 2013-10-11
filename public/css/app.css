@@ -126,3 +126,9 @@ p code {
   color: #555;
   text-shadow: 1px 1px 1px #fff;
 }
+
+.footer {
+  text-align: right;
+  padding: 10px 0;
+  font-size: 14px;
+}
