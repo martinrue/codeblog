@@ -1,5 +1,6 @@
 var config = require('../config');
 var blogs = require('../lib/blogs');
+var _ = require('underscore');
 
 var routes = function(app) {
   app.get('/', function(req, res) {
@@ -9,7 +10,7 @@ var routes = function(app) {
       return res.render('help', { config: config });
     }
 
-    res.render('index', { blogs: all, config: config });
+    res.render('all', { blogs: all, config: config });
   });
 
   app.get('/posts/:url', function(req, res, next) {
@@ -19,7 +20,7 @@ var routes = function(app) {
       return next();
     }
 
-    res.render('index', { blogs: [blog], config: config });
+    res.render('post', { blog: blog, config: config });
   });
 };
 

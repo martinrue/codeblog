@@ -1,0 +1,17 @@
+<div class="post-container">
+  <h2>
+    <a href="/posts/{{url}}">{{blog.title}}</a>
+  </h2>
+
+  <div class="post">
+    {{{blog.post}}}
+  </div>
+
+  <div class="post-footer">
+    <h3>{{blog.relativeDate}}</h3>
+
+    {{#blog.tags}}
+      <div class="tag">{{.}}</div>
+    {{/blog.tags}}
+  </div>
+</div>
