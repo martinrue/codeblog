@@ -1,4 +1,6 @@
+tags: javascript
 title: timing functions
+preview: Although premature optimisation is the root of all evil, we sometimes want to make some CPU bound code a bit faster – especially if it sucks like most my code.
 date: June 18 2013 21:00
 ---
 

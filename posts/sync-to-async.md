@@ -1,4 +1,6 @@
+tags: async javascript
 title: from sync to async
+preview: Processing a collection of things in JavaScript is pretty easy, but what happens when we need to do it asynchronously?
 date: October 12 2013 11:45
 ---
 Processing a collection of things in JavaScript is pretty easy. Using [underscore](http://underscorejs.org) for example:

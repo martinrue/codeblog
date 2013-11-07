@@ -1,4 +1,6 @@
+tags: templating mustache javascript
 title: express + mustache = mustachex
+preview: A nice little library I wrote for using the mustache template engine in express seamlessly.
 date: June 2 2013 22:00
 ---
 

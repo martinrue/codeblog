@@ -1,4 +1,6 @@
+tags: javascript
 title: slowing down functions
+preview: Slowing down a function seems like a curious thing to do, but often it's quite useful. A common example is when a window is resized and you need to redraw the contents.
 date: June 17 2013 19:25
 ---
 

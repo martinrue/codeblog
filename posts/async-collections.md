@@ -1,4 +1,6 @@
+tags: async javascript
 title: async collection processing pattern
+preview: Day-to-day I use async.js quite a lot. It really helps with asynchronous control flow, and there's certainly a lot of that in JavaScript.
 date: October 12 2013 21:58
 ---
 In the [last post](http://code.martinrue.com/posts/sync-to-async) I talked about transitioning from synchronous to asynchronous code in JavaScript, introducing the library [async.js](https://github.com/caolan/async).
