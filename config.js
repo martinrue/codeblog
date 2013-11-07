@@ -3,7 +3,7 @@ var crypto = require('crypto');
 module.exports = {
   email: 'hello@martinrue.com',
   title: 'Martin on Code',
-  style: 'solarized_light'
+  style: 'monokai'
 };
 
 var gravatarHash = crypto.createHash('md5').update(module.exports.email).digest('hex');
