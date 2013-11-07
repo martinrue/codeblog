@@ -14,7 +14,9 @@ Simply create `your-blog-post.md` files in the `/posts` directory and you're don
 The first three lines of any post should look like the following:
 
 ```
+tags: tag1 tag2 tag3
 title: Blog Post Title
+preview: A quick introduction of what the post is about.
 date: Jan 1 2013
 ---
 ```
