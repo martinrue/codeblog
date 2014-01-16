@@ -1,6 +1,6 @@
 tags: ifelse javascript
 title: lookup tables
-preview:
+preview: Tired of a messy if/else or switch block? Use a lookup table.
 date: January 16 2014 12:55
 ---
 Quite often I end up in a situation where I need to do something based on the value of something else. My current example is an `action` variable that may contain `create`, `update` or `remove`.
