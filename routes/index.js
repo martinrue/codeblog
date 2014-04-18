@@ -13,7 +13,7 @@ var routes = function(app) {
     res.render('all', { blogs: all, config: config });
   });
 
-  app.get('/posts/:url', function(req, res, next) {
+  app.get('/:url', function(req, res, next) {
     var blog = blogs.find(req.param('url'));
 
     if (!blog) {

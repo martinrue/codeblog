@@ -1,21 +1,11 @@
 {{#blogs}}
-
-<div class="post-container">
-  <h2>
-    <a href="/posts/{{url}}">{{title}}</a>
-  </h2>
-
-  <div class="post-preview">
-    {{{preview}}}
-  </div>
-
-  <div class="post-footer">
-    <h3>{{relativeDate}}</h3>
-
-    {{#tags}}
-      <div class="tag">{{.}}</div>
-    {{/tags}}
-  </div>
-</div>
-
+                <!-- blog entry -->
+                <h1><a href="/{{url}}">{{title}}</a></h1>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on: {{relativeDate}}</p>
+                <hr>
+                <img src="http://placehold.it/900x300" class="img-responsive">
+                <hr>
+                <p>{{{preview}}}</p>
+                <a class="btn btn-primary" href="/{{url}}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <hr>
 {{/blogs}}
