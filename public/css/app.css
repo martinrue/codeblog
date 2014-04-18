@@ -1,7 +1,17 @@
-
+img{
+    height: auto;
+    max-width: 100%;    
+    display: table;
+    margin: 0 auto;
+}
 .footer {
   text-align: right;
   padding: 10px 0;
   font-size: 14px;
   color: #aaa;
+}
+.page-header {
+    border-bottom: 0;
+    margin: 12px 0 21px;
+    padding-bottom: 0;
 }

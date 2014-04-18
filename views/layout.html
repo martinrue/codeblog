@@ -7,7 +7,7 @@
   <link href="/css/styles/{{config.style}}.css" rel="stylesheet" type="text/css" />
   <link href="/css/app.css" rel="stylesheet" type="text/css" />
 
-  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/jquery-1.10.2.js"></script>
   <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/js/highlight.pack.js"></script>
   <script type="text/javascript" src="/js/keyboard-shortcuts.js"></script>
@@ -16,9 +16,12 @@
   <div class="container-fluid">
       
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-8 col-md-offset-2">         
         <div class="page-header">
-          <h1>{{config.title}} <small>Subtext for header</small></h1>
+          <img src="http://placehold.it/900x200" class="img-responsive img-thumbnail">
+                <ol class="breadcrumb">
+                  <li><a href="/">Home</a></li>
+                </ol> 
         </div><!-- /page-header -->
           {{{body}}}       
         <div class="footer">
