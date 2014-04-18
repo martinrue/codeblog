@@ -1,8 +1,7 @@
 img{
+    display: block;
     height: auto;
-    max-width: 100%;    
-    display: table;
-    margin: 0 auto;
+    max-width: 100%;
 }
 .footer {
   text-align: right;
