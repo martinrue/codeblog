@@ -1,21 +1,9 @@
 {{#blogs}}
+                <!-- blog entry -->
 
-<div class="post-container">
-  <h2>
-    <a href="/posts/{{url}}">{{title}}</a>
-  </h2>
-
-  <div class="post-preview">
-    {{{preview}}}
-  </div>
-
-  <div class="post-footer">
-    <h3>{{relativeDate}}</h3>
-
-    {{#tags}}
-      <div class="tag">{{.}}</div>
-    {{/tags}}
-  </div>
-</div>
-
+                <h1><a href="/{{url}}">{{title}}</a></h1>
+                <p>{{{preview}}}</p>
+                <hr>
+                <img src="http://lorempixel.com/468/60" style="    display: table; margin: 0 auto;"> <!-- /ads -->
+                <hr>
 {{/blogs}}
