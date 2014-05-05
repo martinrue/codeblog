@@ -7,4 +7,4 @@ module.exports = {
 };
 
 var gravatarHash = crypto.createHash('md5').update(module.exports.email).digest('hex');
-module.exports.gravatar = 'http://www.gravatar.com/avatar/' + gravatarHash;
+module.exports.gravatar = 'http://www.gravatar.com/avatar/' + gravatarHash + '?s=200';
