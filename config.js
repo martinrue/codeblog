@@ -2,8 +2,8 @@ var crypto = require('crypto');
 
 module.exports = {
   email: 'me@abr4xas.org',
-  title: 'Blog Title Here',
-  description: 'Blog Description Here',
+  title: 'El blog de abr4xas',
+  description: 'Descripción',
   twitter: '@username',
   disqus_shortname: 'disqus_shortname'
 };

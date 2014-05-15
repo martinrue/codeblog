@@ -1,9 +1,31 @@
+                <ol class="breadcrumb">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#">Github</a></li>
+                  <li><a href="#">Twitter</a></li>                    
+                </ol>
 {{#blogs}}
                 <!-- blog entry -->
 
                 <h3><a href="/{{url}}">{{title}}</a></h3>
-                <p>{{{preview}}}</p>
-                <hr>
-                <img src="http://lorempixel.com/468/60" style="display: table; margin: 0 auto;"> <!-- /ads -->
+                <p class="text-justify">{{{preview}}}</p>
 
+<small>
+    <i class="fa fa-calendar"></i> {{relativeDate}}
+<i class="fa fa-tags"></i> Tags
+{{#tags}}
+    <button type="button" class="btn btn-xs btn-primary">{{.}}</button>
+{{/tags}}
+</small>
+                <hr>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bloio -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7127443823639155"
+     data-ad-slot="9038513565"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr>
 {{/blogs}}

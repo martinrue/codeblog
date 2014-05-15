@@ -1,23 +1,31 @@
                 <ol class="breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li class="active">{{blog.title}}</li>
+                  <li><a href="#">Github</a></li>
+                  <li><a href="#">Twitter</a></li>                    
                 </ol>
-
                 <!-- blog entry -->
                 <h1>{{blog.title}}</h1>
-                <hr>
                 {{{blog.post}}}
 <br>
 <small>
-<i class="fa fa-clock-o"></i> {{blog.relativeDate}} 
-    tagged in:
+<i class="fa fa-calendar"></i> {{blog.relativeDate}} 
+    <i class="fa fa-tags"></i> Tags
 {{#blog.tags}}
-    <i class="fa fa-tags"></i> {{.}}
+    <button type="button" class="btn btn-xs btn-primary">{{.}}</button>
 {{/blog.tags}}
-    
-    
 </small>
-                <hr>
+<hr>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bloio -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7127443823639155"
+     data-ad-slot="9038513565"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

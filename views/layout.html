@@ -1,8 +1,16 @@
+<!--
+      _          _  _                                 
+  __ _| |__  _ __| || |__  ____ _ ___   ___  _ __ __ _ 
+ / _` | '_ \| '__| || |\ \/ / _` / __| / _ \| '__/ _` |
+| (_| | |_) | |  |__   _>  < (_| \__ \| (_) | | | (_| |
+ \__,_|_.__/|_|     |_|/_/\_\__,_|___(_)___/|_|  \__, |
+                                                 |___/ 
+-->
 <!DOCTYPE html>
 <html>
 <head>
   <title>{{config.title}}</title>
-
+    <meta charset="utf-8" />
     <!-- Summary Card twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{config.twitter}}">
@@ -22,7 +30,9 @@
     <meta name="description" content="{{config.description}}" />
     <meta name="apple-mobile-web-app-title" content="El blog de abr4xas">
     <link rel="icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
     <link type="text/plain" rel="author" href="humans.txt" />
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
@@ -34,15 +44,15 @@
     <script type="text/javascript" src="/js/keyboard-shortcuts.js"></script>
 </head>
     <body>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">         
-            <div class="page-header">
-               <h1>{{config.title}} <small>{{config.description}}</small></h1>
-            </div><!-- /page-header -->          
+          <div class="col-md-8 col-md-offset-2 box">         
+               <h1>{{config.title}}</h1>
+              <small>{{config.description}}</small>
+              <hr>
              {{{body}}}
             <div class="footer">
-              powered by <a href="https://github.com/martinrue/codeblog" target="_blank">codeblog</a>
+              <p class="text-muted"> powered by <a href="https://github.com/martinrue/codeblog" target="_blank">codeblog</a></p>
             </div>          
          </div><!-- / .col-md-6 .col-md-offset-3 -->
         </div>   

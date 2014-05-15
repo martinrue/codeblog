@@ -1,0 +1,16 @@
+.box {
+    background: none repeat scroll 0 0 #FCFCFC;
+    box-shadow: 0 0 10px #000000, 0 0 0 #000000 inset;
+
+}
+.center{
+    display: table; 
+    margin: 0 auto;    
+}
+hr {
+    border: none;
+}
+body {
+    background-color: #2980b9;
+    margin-top: -19px;
+}
