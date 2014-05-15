@@ -45,9 +45,6 @@ module.exports = {
 };
 ```
 
-### Supported Styles
-You can set the `style` config to any of the following values: `arta` `ascetic` `brown_paper` `dark` `default` `far` `github` `googlecode` `idea` `ir_black` `magula` `monokai` `pojoaque` `rainbow` `school_book` `solarized_dark` `solarized_light` `sunburst` `tomorrow-night-blue` `tomorrow-night-bright` `tomorrow-night-eighties` `tomorrow-night` `tomorrow` `vs` `xcode` `zenburn`.
-
 ## Running Locally
 Simply clone the repo, install dependencies and run `node codeblog.js`:
 
