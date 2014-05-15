@@ -3,7 +3,6 @@ var crypto = require('crypto');
 module.exports = {
   email: 'me@abr4xas.org',
   title: 'Blog Title Here',
-  style: 'monokai',
   description: 'Blog Description Here',
   twitter: '@username',
   disqus_shortname: 'disqus_shortname'
