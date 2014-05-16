@@ -3,10 +3,10 @@
   "version": "0.0.3",
   "description": "A quick and easy way to host your own simple code blog",
   "main": "codeblog.js",
-  "homepage": "https://github.com/martinrue/codeblog",
+  "homepage": "https://github.com/spinner-dev/codeblog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/martinrue/codeblog.git"
+    "url": "https://github.com/spinner-dev/codeblog.git"
   },
   "keywords": [
     "code",
@@ -20,8 +20,7 @@
     "glob": "3.2.9",
     "underscore": "1.6.0",
     "marked": "0.3.2",
-    "moment": "2.6.0",
-    "pm2": "0.8.6"  
+    "moment": "2.6.0"
   },
   "engines": {
     "node": "0.10.28",
