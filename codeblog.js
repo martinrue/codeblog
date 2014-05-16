@@ -4,7 +4,7 @@ var mustachex = require('mustachex');
 
 var app = express();
 
-app.configure(function() {
+app.use(function() {
   app.engine('html', mustachex.express);
   app.set('view engine', 'html');
   app.set('views', __dirname + '/views');
@@ -13,13 +13,21 @@ app.configure(function() {
   app.use(app.router);
 });
 
-app.configure('development', function() {
-  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-});
+// development only
+if ('development' == app.get('env')) {
+  app.set(express.errorHandler({ dumpExceptions: true, showStack: true }));
+}
+// production only
+if ('production' == app.get('env')) {
+  app.set(express.errorHandler());
+} 
 
-app.configure('production', function() {
-  app.use(express.errorHandler());
-});
+//app.configure('development', function() {
+//  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+//});
+//app.configure('production', function() {
+//  app.use(express.errorHandler());
+//});
 
 require('./routes/index')(app);
 require('./routes/404')(app);
