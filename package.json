@@ -1,6 +1,6 @@
 {
   "name": "codeblog",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A quick and easy way to host your own simple code blog",
   "main": "codeblog.js",
   "homepage": "https://github.com/martinrue/codeblog",
