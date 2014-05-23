@@ -18,14 +18,13 @@
     "express": "~3.2.5",
     "mustachex": "0.0.2",
     "glob": "~3.2.1",
-    "underscore": "~1.4.4",
     "marked": "~0.2.9",
-    "moment": "~2.0.0"
+    "moment": "~2.0.0",
+    "lodash": "~2.4.1"
   },
   "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
   },
-  "scripts": {
-  }
+  "scripts": {}
 }
