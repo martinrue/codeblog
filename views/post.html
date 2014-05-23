@@ -11,7 +11,7 @@
     <h3>{{blog.relativeDate}}</h3>
 
     {{#blog.tags}}
-      <div class="tag">{{.}}</div>
+      <div class="tag"><a href='/tag/{{.}}'>{{.}}</a></div>
     {{/blog.tags}}
   </div>
 </div>
